@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+     user-select: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-right: 50px;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.15ms;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+    background: #fff;
+    color: #2b1055;
+
+}
+
+.levels {
+    position: relative;
+    padding: 100px;
+    background: #2b3656;
+    height: 720px;
+}
+
+.levels h1{
+    font-size: 3.5em;
+    margin-bottom: 20;
+    color: #fff;
+    text-align: center;
+}
+
+.levels ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.levels ul li {
+    margin-top: 270px;
+    list-style: none;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+.levels ul li a {
+    background-color: #19e780;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 80px 89px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 240px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.levels ul li a:hover,
+.levels ul li a.active
+{
+    color: rgb(255, 255, 255);
+    box-shadow: 30px 10px 20px rgba(199, 252, 76, 0.4);
+    transform: translate(100px);
+    opacity: 100;
+  }
